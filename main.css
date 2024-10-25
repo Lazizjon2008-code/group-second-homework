@@ -16,4 +16,493 @@ body {
   font-style: normal;
 }
 
+.main_section_of_covid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.main_section_of_covid .information_about_people {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(1, 250px);
+  justify-content: center;
+  align-content: center;
+  gap: 45px;
+  margin-top: 60px;
+  padding-bottom: 300px;
+}
+.main_section_of_covid .information_about_people .lagos_badagry {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(196, 196, 196, 0.5019607843);
+  border-radius: 20px;
+}
+.main_section_of_covid .information_about_people .lagos_badagry p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.main_section_of_covid .information_about_people .lagos_badagry p span {
+  color: #17C2EC;
+}
+.main_section_of_covid .information_about_people .lagos_badagry .img_with_name {
+  display: flex;
+  align-items: center;
+}
+.main_section_of_covid .information_about_people .lagos_badagry .img_with_name img {
+  width: 70px;
+  height: 70px;
+  margin-left: 25px;
+}
+.main_section_of_covid .information_about_people .lagos_badagry .img_with_name h4 {
+  font-size: 24px;
+  color: #000000;
+  margin-left: 15px;
+}
+.main_section_of_covid .information_about_people .lagos_badagry .img_with_name h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #17C2EC;
+  border-radius: 20px;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja .img_with_name {
+  display: flex;
+  align-items: center;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja .img_with_name img {
+  width: 70px;
+  height: 70px;
+  margin-left: 25px;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja .img_with_name h4 {
+  font-size: 24px;
+  color: #000000;
+  margin-left: 15px;
+}
+.main_section_of_covid .information_about_people .lagos_ikeja .img_with_name h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro {
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+  background-color: rgba(196, 196, 196, 0.5019607843);
+  border-radius: 20px;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro p span {
+  color: #17C2EC;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name {
+  display: flex;
+  align-items: center;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name img {
+  width: 70px;
+  height: 70px;
+  margin-left: 25px;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name h4 {
+  font-size: 24px;
+  color: #000000;
+  margin-left: 15px;
+}
+.main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.main_section_of_covid h3 {
+  font-size: 24px;
+  color: #17C2EC;
+}
+.main_section_of_covid h1 {
+  font-size: 48px;
+  color: #000000;
+  margin-top: 20px;
+}
+.main_section_of_covid p {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-top: 15px;
+}
+
+.getting_quote {
+  width: 1060px;
+  height: 430px;
+  background-color: rgba(196, 196, 196, 0.1490196078);
+  border: none;
+  border-radius: 50px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-top: -200px;
+  position: relative;
+}
+.getting_quote .write_an_email {
+  width: 1025px;
+  height: 390px;
+  background-color: #17C2EC;
+  border: none;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+.getting_quote .write_an_email h1 {
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-left: 37%;
+  padding-top: 15px;
+}
+.getting_quote .write_an_email h4 {
+  font-size: 22px;
+  color: #FFFFFF;
+  padding-top: 15px;
+  margin-left: 28%;
+}
+.getting_quote .write_an_email form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.getting_quote .write_an_email form input {
+  width: 450px;
+  height: 70px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.2509803922);
+}
+.getting_quote .write_an_email form button {
+  width: 100px;
+  height: 70px;
+  background-color: #0B153C;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.getting_quote .write_an_email form button img {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.the_foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0B153C;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  margin-top: -200px;
+}
+.the_foot h1 {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.the_foot h1 span {
+  border-bottom: 3px solid #17C2EC;
+}
+.the_foot ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+  list-style: none;
+}
+.the_foot ul a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.5019607843);
+  transition: all 0.2s ease-in-out;
+}
+.the_foot ul a:hover {
+  color: #FFFFFF;
+}
+.the_foot .website_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 15px;
+}
+.the_foot .website_imgs img {
+  width: 45px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 370px;
+  }
+  .main_section_of_covid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .main_section_of_covid .information_about_people {
+    display: grid;
+    grid-template-columns: repeat(1, 305px);
+    grid-template-rows: repeat(3, 190.62px);
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    padding-bottom: 300px;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(196, 196, 196, 0.5019607843);
+    border-radius: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry p {
+    font-size: 12.2px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry p span {
+    color: #17C2EC;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry .img_with_name {
+    display: flex;
+    align-items: center;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry .img_with_name img {
+    width: 53.38px;
+    height: 53.38px;
+    margin-left: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry .img_with_name h4 {
+    font-size: 13.55px;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .main_section_of_covid .information_about_people .lagos_badagry .img_with_name h5 {
+    font-size: 9.49px;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #17C2EC;
+    border-radius: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja p {
+    font-size: 12.2px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja .img_with_name {
+    display: flex;
+    align-items: center;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja .img_with_name img {
+    width: 53.38px;
+    height: 53.38px;
+    margin-left: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja .img_with_name h4 {
+    font-size: 13.55px;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .main_section_of_covid .information_about_people .lagos_ikeja .img_with_name h5 {
+    font-size: 9.49px;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro {
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgba(196, 196, 196, 0.5019607843);
+    border-radius: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro p {
+    font-size: 12.2px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro p span {
+    color: #17C2EC;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name {
+    display: flex;
+    align-items: center;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name img {
+    width: 53.38px;
+    height: 53.38px;
+    margin-left: 20px;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name h4 {
+    font-size: 13.55px;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .main_section_of_covid .information_about_people .lagos_obanikoro .img_with_name h5 {
+    font-size: 9.49px;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .main_section_of_covid h3 {
+    font-size: 14px;
+    color: #17C2EC;
+  }
+  .main_section_of_covid h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .main_section_of_covid p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5019607843);
+    margin-top: 15px;
+  }
+  .getting_quote {
+    width: 305px;
+    height: 206px;
+    background-color: rgba(196, 196, 196, 0.1490196078);
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: -200px;
+    position: relative;
+  }
+  .getting_quote .write_an_email {
+    width: 280px;
+    height: 147px;
+    background-color: #17C2EC;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .getting_quote .write_an_email h1 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 37%;
+    padding-top: 10px;
+  }
+  .getting_quote .write_an_email h4 {
+    font-size: 10px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    margin-left: 28%;
+  }
+  .getting_quote .write_an_email form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .getting_quote .write_an_email form input {
+    width: 174.75px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 15px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.2509803922);
+  }
+  .getting_quote .write_an_email form button {
+    width: 53.3px;
+    height: 40px;
+    background-color: #0B153C;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .getting_quote .write_an_email form button img {
+    width: 23.3px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .the_foot {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: #0B153C;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin-top: -100px;
+    padding-left: 25px;
+  }
+  .the_foot h1 {
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .the_foot h1 span {
+    border-bottom: 3px solid #17C2EC;
+  }
+  .the_foot ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: 15px;
+    gap: 15px 0;
+    list-style: none;
+  }
+  .the_foot ul a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5019607843);
+    transition: all 0.2s ease-in-out;
+  }
+  .the_foot ul a:hover {
+    color: #FFFFFF;
+  }
+  .the_foot .website_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    margin-top: 15px;
+  }
+  .the_foot .website_imgs img {
+    width: 17.87px;
+    height: 17.87px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
