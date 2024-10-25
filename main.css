@@ -16,4 +16,47 @@ body {
   font-style: normal;
 }
 
+.yusuf .one-section {
+  background-image: url(./img/fon.png);
+  height: 1024px;
+}
+.yusuf .one-section header {
+  padding-top: 50px;
+}
+.yusuf .one-section header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yusuf .one-section header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.yusuf .one-section header nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5019607843);
+  transition: transform 0.3s ease;
+}
+.yusuf .one-section header nav ul li a:hover {
+  transform: scale(1.2);
+  color: white;
+}
+.yusuf .one-section header nav .but-box button {
+  width: 219px;
+  height: 69px;
+  padding: 20px 26px 20px 26px;
+  gap: 10px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(196, 196, 196, 0.1019607843);
+  color: #17C2EC;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  font-size: 18px;
+}
+.yusuf .one-section .logo-case h2 {
+  color: white;
+  font-size: 32px;
+}
+
 /*# sourceMappingURL=main.css.map */
